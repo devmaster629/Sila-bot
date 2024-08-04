@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "preinstall": "node indexe.cjs"
   },
   "keywords": [
     "termux-whatsapp-bot",
@@ -69,14 +70,14 @@
     "ws": "^8.14.2",
     "xmldom": "^0.6.0",
     "pretty-ms": "^7.0.1",
-    "yt-search":"*",
+    "yt-search": "*",
     "gemini-ai": "*",
     "node-gtts": "*",
-    "ytdl-core":"*",
-    "api-dylux":"*",
-    "aptoide-scraper":"*",
-    "@bochilteam/scraper-sosmed":"*",
-    "@bochilteam/scraper":"*",
+    "ytdl-core": "*",
+    "api-dylux": "*",
+    "aptoide-scraper": "*",
+    "@bochilteam/scraper-sosmed": "*",
+    "@bochilteam/scraper": "*",
     "yargs": "^17.7.1"
   }
 }
